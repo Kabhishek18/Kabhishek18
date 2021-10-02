@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Kabhishek18
-- 👀 I’m interested in PHP, JS, Node, 
+- 👀 I’m interested in PHP, JS, Node, ReactJs
 - 🌱 I’m currently learning 
 - 💞️ I’m looking to collaborate on https://kabhishek18.com
 - 📫 How to reach me kabhishek18@gmail.com  
