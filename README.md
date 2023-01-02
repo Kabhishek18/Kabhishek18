@@ -16,7 +16,7 @@ Web Application Development and Mobile Application Development
 ## 🛠 Skills
 `PHP(Codeiginter, Laravel,Wordpress)`, 
 `Html & CSS`, `Google (Firebase)`, `Javascript (Angular, Nodejs, React JS)` 
-`Amazon Web Service`, `Rest/SOAP Api`, `Python( Djnago )` 
+`Amazon Web Service`, `Rest/SOAP Api`, `Python( Djnago )` `Elastice Search`
 ## Other Common Github Profile Sections
 👩‍💻 I'm currently working on `React native(Android, IOS), Python Django`
 
