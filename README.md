@@ -1,8 +1,7 @@
+# Hi there! My name is Kumar Abhishek, and I am a software developer executive  with 7+ years of experience in Python, PHP, ReactJS.
 ## 🚀 About Me
 I'm an experienced Full Stack Software Developer and have rich experience in
 Web Application Development and Mobile Application Development
-
-Hi there! My name is Kumar Abhishek, and I am a software developer executive  with 7+ years of experience in Python, PHP, ReactJS.
 
 Over the years, I have honed my skills in Python and PHP, and have worked on several projects in Ecommerce, Aviation and Edu-commerece . I am passionate about using technology to solve complex problems, and I strive to deliver high-quality solutions that meet the needs of my clients.
 
