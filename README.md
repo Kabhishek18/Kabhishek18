@@ -18,7 +18,7 @@ If you'd like to get in touch, feel free to connect with me on. I look forward t
 
 
 ## 🛠 Skills
-`Python( Djnago )`,,`PHP(Codeiginter, Laravel,Wordpress)`, 
+`Python( Djnago )`,`PHP(Codeiginter, Laravel,Wordpress)`, 
 `Html & CSS`, `Javascript (Angular, React JS)`,`Amazon Web Service`, `Rest/SOAP Api`,  `Elastice Search`
 
 
