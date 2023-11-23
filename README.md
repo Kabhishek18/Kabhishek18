@@ -24,8 +24,14 @@ If you'd like to get in touch, feel free to connect with me on. I look forward t
 
 
 ## 🛠 Skills
-`Python( Djnago )`,`PHP(Codeiginter, Laravel,Wordpress)`, 
-`Html & CSS`, `Javascript (Angular, React JS)`,`Amazon Web Service`, `Rest/SOAP Api`,  `Elastice Search`
+[![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python&link=https://github.com/Quananhle/Python-AWS-TradingAI)](https://github.com/Quananhle/Python-AWS-TradingAI)
+[![PHP](https://img.shields.io/badge/-PHP-blue?style=flat&logo=php&link=https://github.com/YourUsername/YourPHPRepo)](https://github.com/YourUsername/YourPHPRepo)
+[![HTML & CSS](https://img.shields.io/badge/-HTML%20%26%20CSS-orange?style=flat&logo=html5&link=https://github.com/YourUsername/YourHtmlCssRepo)](https://github.com/YourUsername/YourHtmlCssRepo)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat&logo=javascript&link=https://github.com/YourUsername/YourJsRepo)](https://github.com/YourUsername/YourJsRepo)
+[![Amazon Web Services](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&link=https://github.com/YourUsername/YourAWSRepo)](https://github.com/YourUsername/YourAWSRepo)
+[![API](https://img.shields.io/badge/-API-green?style=flat&logo=api&link=https://github.com/YourUsername/YourApiRepo)](https://github.com/YourUsername/YourApiRepo)
+[![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-blue?style=flat&logo=elasticsearch&link=https://github.com/YourUsername/YourElasticsearchRepo)](https://github.com/YourUsername/YourElasticsearchRepo)
+
 
 
 ## Other Common Github Profile Sections
