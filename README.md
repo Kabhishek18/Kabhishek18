@@ -17,6 +17,8 @@ If you'd like to get in touch, feel free to connect with me on. I look forward t
   ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kabhishek18&show_icons=true&theme=radical&theme=dark)
 </div>
 
+[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
+[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kabhishek18.com/) 
