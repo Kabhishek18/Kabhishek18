@@ -4,9 +4,9 @@ Web Application Development and Mobile Application Development  and I am a softw
 
 Over the years, I have honed my skills in Python and PHP, and have worked on several projects in e-commerce, Aviation, and Edtech-commerce. I am passionate about using technology to solve complex problems, and I strive to deliver high-quality solutions that meet the needs of my clients.
 
-When I'm not working, you can find me @kabhishek18.com. I believe that a well-rounded individual is a better problem solver, and I try to bring that perspective to all of my work.
+When I'm not working, you can find me at @kabhishek18.com. I believe that a well-rounded individual is a better problem solver, and I try to bring that perspective to all of my work.
 
-My mission is to Software Solution Architect . I am constantly learning and seeking out new challenges, and I am excited about the possibilities that the future holds.
+My mission is to Software Solution Architect. I am constantly learning and seeking out new challenges, and I am excited about the possibilities that the future holds.
 
 If you'd like to get in touch, feel free to connect with me on. I look forward to hearing from you!
 
@@ -15,7 +15,6 @@ If you'd like to get in touch, feel free to connect with me on. I look forward t
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> 
   <h3>Here are some stats</h3>
   
-[![Kabhishek18's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=kabhishek18&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/kabhishek18/github-readme-stats#gh-dark-mode-only)
 
 </div>
 
