@@ -1,12 +1,11 @@
 ## 🚀 About Me (Hi there! My name is Kumar Abhishek)
 I'm an experienced Full Stack Software Developer and have rich experience in
-Web Application Development and Mobile Application Development  and I am a software developer executive  with 7+ years of experience in Python, PHP, and ReactJS.
+Web Application Development and Mobile Application Development  and I am a software developer executive  with 9+ years of experience in Python, PHP, and ReactJS.
 
 Over the years, I have honed my skills in Python and PHP, and have worked on several projects in e-commerce, Aviation, and Edtech-commerce. I am passionate about using technology to solve complex problems, and I strive to deliver high-quality solutions that meet the needs of my clients.
 
-When I'm not working, you can find me at @kabhishek18.com. I believe that a well-rounded individual is a better problem solver, and I try to bring that perspective to all of my work.
-
-My mission is to Software Solution Architect. I am constantly learning and seeking out new challenges, and I am excited about the possibilities that the future holds.
+When I'm not working, you can find me at @kabhishek18.com. I believe that a well-rounded individual is a better problem solver, and I try to bring that perspective to my work.
+I am constantly learning and seeking out new challenges, and I am excited about the possibilities of the future.
 
 If you'd like to get in touch, feel free to connect with me on. I look forward to hearing from you!
 
@@ -38,11 +37,11 @@ If you'd like to get in touch, feel free to connect with me on. I look forward t
 
 
 
-## Other Common Github Profile Sections
+## Other Common GitHub Profile Sections
 👩‍💻 I'm currently working on `React native(Android, IOS), Python Django`
 
-👯‍♀️ I'm looking to collaborate on any relevent to my skill
+👯‍♀️ I'm looking to collaborate on any relevant to my skill
 
 💬 Ask me about anything of my project 
 
-📫 How to reach me, contact me : `developer@kabhishek18.com`
+📫 How to reach me, contact me: `developer@kabhishek18.com`
