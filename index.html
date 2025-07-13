@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Kumar - Digital Architect</title>
+    <style>
+        /* General Styles & Variables */
+        :root {
+            --primary-color: #6a11cb;
+            --secondary-color: #2575fc;
+            --background-color: #0f0f1a;
+            --card-background: #1a1a2e;
+            --text-color: #e0e0e0;
+            --heading-color: #ffffff;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            --border-radius: 15px;
+        }
+
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and Typography */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3 {
+            color: var(--heading-color);
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        h1 { font-size: 3.5rem; }
+        h2 { font-size: 2.5rem; }
+        h3 { font-size: 1.5rem; }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--primary-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header & Navigation */
+        .main-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 20px 0;
+            background: rgba(15, 15, 26, 0.8);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        
+        .main-header.scrolled {
+            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+            padding: 15px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--heading-color);
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-item {
+            margin-left: 30px;
+        }
+
+        .nav-link {
+            color: var(--text-color);
+            font-weight: 500;
+            position: relative;
+            padding-bottom: 5px;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after, .nav-link.active::after {
+            width: 100%;
+        }
+        
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 80px; /* For fixed header */
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        .hero-text {
+            max-width: 600px;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.2rem;
+            font-weight: 300;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            margin: 1.5rem 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(37, 117, 252, 0.5);
+            color: white;
+        }
+        
+        .hero-image-container {
+            position: relative;
+        }
+        
+        .hero-image {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--card-background);
+            box-shadow: 0 0 50px rgba(37, 117, 252, 0.3);
+        }
+
+        /* Generic Section Styling */
+        .section {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            border-radius: 2px;
+        }
+
+        /* About Section */
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+        }
+        
+        .about-image img {
+            width: 300px;
+            height: 300px;
+            border-radius: var(--border-radius);
+            object-fit: cover;
+            box-shadow: var(--shadow);
+        }
+        
+        .about-text {
+            max-width: 700px;
+        }
+
+        /* Portfolio Section */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .portfolio-card {
+            background: var(--card-background);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+        }
+
+        .portfolio-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        
+        .portfolio-card-content {
+            padding: 1.5rem;
+        }
+        
+        .portfolio-card-content h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            text-align: center;
+        }
+        
+        .contact-description {
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+        }
+        
+        .social-links {
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            font-size: 2rem;
+            margin: 0 15px;
+            color: var(--text-color);
+        }
+        
+        /* Footer */
+        .main-footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 60px;
+            border-top: 1px solid var(--card-background);
+        }
+        
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            h1 { font-size: 2.8rem; }
+            h2 { font-size: 2rem; }
+            
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .hero-image {
+                width: 300px;
+                height: 300px;
+                margin-top: 2rem;
+            }
+            
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                width: 100%;
+                background: var(--card-background);
+                padding: 1rem 0;
+            }
+            
+            .nav-menu.active {
+                display: flex;
+            }
+            
+            .nav-item {
+                margin: 1rem 0;
+                text-align: center;
+            }
+            
+            .mobile-menu-toggle {
+                display: block;
+            }
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header" id="mainHeader">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="nav-logo">KAbhishek18</a>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text fade-in">
+                        <p class="hero-subtitle">Hello, I'm Abhishek Kumar</p>
+                        <h1>Digital Architect & AI Developer</h1>
+                        <p class="hero-description">I design and build intelligent, high-impact digital experiences. From complex web applications to AI-driven solutions, I turn innovative ideas into reality.</p>
+                        <a href="#contact" class="cta-button">Get In Touch</a>
+                    </div>
+                    <div class="hero-image-container fade-in">
+                         <img src="https://placehold.co/400x400/1a1a2e/e0e0e0?text=AK" alt="Abhishek Kumar" class="hero-image" onerror="this.onerror=null;this.src='https://placehold.co/400x400';">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image fade-in">
+                        <img src="https://placehold.co/600x600/2575fc/ffffff?text=Developer" alt="About Abhishek Kumar" onerror="this.onerror=null;this.src='https://placehold.co/600x600';">
+                    </div>
+                    <div class="about-text fade-in">
+                        <h3>Crafting the Future of the Web</h3>
+                        <p>With a passion for clean code and a forward-thinking mindset, I specialize in full-stack development with a strong focus on the Django framework and modern front-end technologies. My journey into the world of AI and machine learning allows me to build not just functional, but truly intelligent applications.</p>
+                        <p>I thrive on challenges and am constantly exploring new technologies to push the boundaries of what's possible. Let's collaborate and build something extraordinary.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">Featured Projects</h2>
+                <div class="portfolio-grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio-card fade-in">
+                        <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=AI+Project" class="portfolio-image" alt="Project 1" onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
+                        <div class="portfolio-card-content">
+                            <h3>AI Content Generation Suite</h3>
+                            <p>A powerful Django application that leverages cutting-edge AI models to automate content creation for blogs and marketing.</p>
+                            <a href="#">View Details &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="portfolio-card fade-in">
+                        <img src="https://placehold.co/600x400/6a11cb/ffffff?text=Web+App" class="portfolio-image" alt="Project 2" onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
+                        <div class="portfolio-card-content">
+                            <h3>Dynamic E-Commerce Platform</h3>
+                            <p>A scalable online store built with Django, featuring a custom admin panel, payment integrations, and a sleek user interface.</p>
+                            <a href="#">View Details &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="portfolio-card fade-in">
+                        <img src="https://placehold.co/600x400/2575fc/ffffff?text=Portfolio" class="portfolio-image" alt="Project 3" onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
+                        <div class="portfolio-card-content">
+                            <h3>Personal Blog & CMS</h3>
+                            <p>The blog section of this website, featuring a custom-built Content Management System for easy article publishing.</p>
+                            <a href="#">View Details &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container fade-in">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="contact-description">I'm currently available for freelance projects and open to discussing new opportunities. If you have an idea you'd like to bring to life, let's talk.</p>
+                <a href="mailto:developer@kabhishek18.com" class="cta-button">developer@kabhishek18.com</a>
+                <div class="social-links">
+                    <a href="https://github.com/kabhishek18" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/kabhishek18" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/kabhishek18" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Abhishek Kumar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mainHeader = document.getElementById('mainHeader');
+            const navMenu = document.getElementById('navMenu');
+            const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            // Header scroll effect
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    mainHeader.classList.add('scrolled');
+                } else {
+                    mainHeader.classList.remove('scrolled');
+                }
+            });
+
+            // Mobile menu toggle
+            mobileMenuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+
+            // Smooth scrolling and active link highlighting
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - mainHeader.offsetHeight,
+                            behavior: 'smooth'
+                        });
+                    }
+                    
+                    // Close mobile menu on link click
+                    if (navMenu.classList.contains('active')) {
+                        navMenu.classList.remove('active');
+                    }
+                });
+            });
+            
+            // Intersection Observer for fade-in animations
+            const faders = document.querySelectorAll('.fade-in');
+            const appearOptions = {
+                threshold: 0.1,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) {
+                        return;
+                    } else {
+                        entry.target.classList.add('visible');
+                        appearOnScroll.unobserve(entry.target);
+                    }
+                });
+            }, appearOptions);
+
+            faders.forEach(fader => {
+                appearOnScroll.observe(fader);
+            });
+            
+            // Active link highlighting on scroll
+            window.addEventListener('scroll', () => {
+                let current = '';
+                const sections = document.querySelectorAll('section');
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    if (pageYOffset >= sectionTop - mainHeader.offsetHeight - 50) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').includes(current)) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
