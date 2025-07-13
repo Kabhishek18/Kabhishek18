@@ -48,7 +48,7 @@ I don’t just write code — I **engineer ecosystems**. From system architectur
   </tr>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/-SQL%20(Intermediate)-2EC866?logo=hackerrank&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/-SQL%20(Advanced)-2EC866?logo=hackerrank&logoColor=white" /><br/>
       <sub>HackerRank</sub>
     </td>
     <td align="center">
@@ -70,7 +70,7 @@ I don’t just write code — I **engineer ecosystems**. From system architectur
       <sub>Coursera</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/-Python%20(Basic)-2EC866?logo=hackerrank&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/-Python%20(Advanced)-2EC866?logo=hackerrank&logoColor=white" /><br/>
       <sub>HackerRank</sub>
     </td>
   </tr>
