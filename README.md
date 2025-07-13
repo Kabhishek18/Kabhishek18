@@ -1,67 +1,91 @@
-# 🚀 About Me
+# 👨‍💻 **Kumar Abhishek**
+**AI‑Driven Full Stack Engineer | System Architect | Security & Scaling Specialist**
 
-Hi there! 👋 I'm **Kumar Abhishek**, an experienced **Full Stack Software Developer** with over **9 years of industry experience** in **Python**, **PHP**, **ReactJS**, and **web & mobile application development**.
+🔬 Architecting Intelligence • Securing Systems • Scaling Globally
 
-I specialize in building scalable and high-performance applications, and have contributed to impactful projects across diverse domains like **E-commerce**, **Aviation**, and **EdTech-commerce**.
-
-I’m passionate about using technology to solve real-world problems, and I pride myself on delivering clean, maintainable, and high-quality code. When I’m not coding, I’m learning something new, exploring open-source projects, or contributing to tech communities.
-
-🌐 **Portfolio**: [kabhishek18.com](https://kabhishek18.com/)  
-📧 **Email**: [developer@kabhishek18.com](mailto:developer@kabhishek18.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/kabhishek18/)](https://www.linkedin.com/in/kabhishek18/)  
+[![Portfolio](https://img.shields.io/badge/-Portfolio-black?style=flat-square&logo=github&logoColor=white&link=https://kabhishek18.com/)](https://kabhishek18.com/)  
+[![Email](https://img.shields.io/badge/-Email‑Me-red?style=flat-square&logo=gmail&logoColor=white&link=mailto:developer@kabhishek18.com)](mailto:developer@kabhishek18.com)
 
 ---
 
-<div align="center">
-  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="100" />
-  <h3>📊 GitHub Stats</h3>
+## 🚀 About Me
 
-  [![Kabhishek18's GitHub Stats (Dark)](https://github-readme-stats.vercel.app/api?username=kabhishek18&show_icons=true&theme=dark)](https://github.com/kabhishek18/github-readme-stats)
+I’m **Kumar Abhishek**, a **high-impact software engineer and AI specialist** with over **9 years** of delivering secure, scalable, and intelligent systems across E‑commerce, EdTech, Aviation, and SaaS.
+
+I don’t just write code — I **engineer ecosystems**. From system architecture, debugging, and AI pipelines to securing and scaling cloud-native infrastructure, I build end-to-end solutions that drive impact.
+
+---
+
+## 🧠 Key Expertise
+
+- 🔥 **Top-Tier Coding & Debugging**: Python, PHP, JS (React/Node), SQL, Bash. Master of concurrency, profiling, and optimization.
+- 🧠 **AI + Real-World Architecture**: LLMs (LangChain, OpenAI, HuggingFace), NLP, Computer Vision, Query Vector DBs.
+- 🏗️ **System Design Authority**: Microservices, Pub/Sub, Task Queues, REST/GraphQL, Event-driven architecture.
+- 🔐 **Security Mastery**: OAuth2, RBAC, JWT, HTTPS, CSP, API rate-limiting, IAM, secure coding.
+- 📈 **Scale Specialist**: Auto-scaling pipelines, Redis, Kafka, Celery, horizontal scaling, distributed tracing.
+- ☁️ **AWS & DevOps Expert**: Docker, Kubernetes, GitHub Actions, Lambda, ECS, CI/CD, observability (ELK, Prometheus).
+
+---
+
+## 🎖️ Featured Certifications
+<div align="center">
+
+| 🏅 Certification | Provider |
+|-----------------|----------|
+| ![Scrum](https://img.shields.io/badge/-Professional%20Scrum%20Master-6DB33F?logo=scrumalliance&logoColor=white) | Scrum.org |
+| ![Google Cloud](https://img.shields.io/badge/-Generative%20AI-4285F4?logo=googlecloud&logoColor=white) | Google Cloud |
+| ![Udemy](https://img.shields.io/badge/-React%20%26%20Django%20Full%20Stack-A435F0?logo=udemy&logoColor=white) | Udemy |
+| ![HackerRank](https://img.shields.io/badge/-SQL%20(Intermediate)-2EC866?logo=hackerrank&logoColor=white) | HackerRank |
+| ![Python Debugging](https://img.shields.io/badge/-Testing%20%26%20Debugging%20Python-0056D2?logo=coursera&logoColor=white) | Coursera |
+| ![Postman](https://img.shields.io/badge/-Postman%20Advanced-FF6C37?logo=postman&logoColor=white) | Coursera |
+| ![DevOps](https://img.shields.io/badge/-Continuous%20Delivery%20%26%20DevOps-2496ED?logo=azuredevops&logoColor=white) | Coursera |
+| ![Python Flask](https://img.shields.io/badge/-Python%20%26%20Flask-3776AB?logo=python&logoColor=white) | Coursera |
+| ![Python Basic](https://img.shields.io/badge/-Python%20(Basic)-2EC866?logo=hackerrank&logoColor=white) | HackerRank |
 </div>
 
 ---
 
-## 🔗 Connect with Me
+## 📈 GitHub Stats
 
-[![Portfolio](https://img.shields.io/badge/My%20Portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kabhishek18.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kabhishek18)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kabhishek18)
-
----
-
-## 🛠 Tech Stack
-
-### 👨‍💻 Languages & Frameworks
-![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript)
-![ReactJS](https://img.shields.io/badge/-ReactJS-61DAFB?style=flat&logo=react)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
-
-### 🧰 Tools & Platforms
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django)
-![React Native](https://img.shields.io/badge/-React%20Native-20232A?style=flat&logo=react)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws)
-![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=flat&logo=elasticsearch)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker)
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat&logo=github-actions)
+<div align="center">
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="100"/>
+  <br/>
+  | 🏅 Stats | Languages |
+  |-----------------|----------|
+  ![Abhishek's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kabhishek18&show_icons=true&theme=dark&count_private=true&hide=issues) |  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kabhishek18&layout=compact&theme=dark)|
+</div>
 
 ---
 
-## 💼 Current Focus
+## 🖼️ Top Projects (Showcase)
 
-- 👨‍💻 Currently working on **React Native (Android & iOS)** and **Python (Django)** projects  
-- 🤝 Looking to collaborate on meaningful open-source or freelance projects  
-- 💬 Ask me about anything related to my projects, stack, or backend infrastructure  
-- 🧠 Constantly learning and exploring new technologies  
+<div align="center">
+  <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="240" alt="Coding GIF">
+</div>
+
+### 🏆 Featured Work
+
+- **Project Alpha**: Enterprise microservices platform with real-time AI inference, robust security, and near-zero downtime.
+- **Project Beta**: E‑commerce system with AI‑driven recommendations, advanced fraud detection, and scalable Django‑React infrastructure.
+- **Project Gamma**: Aviation booking solution handling high‑volume API traffic with end‑to‑end encryption and multi‑region failover.
+
+---
+
+## 💬 Want to Collaborate?
+
+I'm always open to exciting open-source, freelance, or enterprise-level opportunities.  
+Let’s architect, secure, scale, and deliver together!
 
 ---
 
-## 💡 Fun Fact
+### 🧩 Connect with Me
 
-> I believe that **a well-rounded individual is a better problem solver**.  
-> Whether it’s writing code or understanding people, I always aim to grow in both areas!
+- 🌐 [Portfolio](https://kabhishek18.com/)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/kabhishek18/)  
+- 🐦 [Twitter](https://twitter.com/kabhishek18)  
+- 📬 [Email Me](mailto:developer@kabhishek18.com)
 
 ---
+
+> **"Write code with confidence—architect for life."**
