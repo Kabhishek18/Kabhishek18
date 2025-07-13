@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek Kumar - Digital Architect</title>
+    <title>Kumar Abhishek - The Digital Architect</title>
     <style>
         /* General Styles & Variables */
         :root {
+            --primary-color: #00aaff;
+            --secondary-color: #00ffc3;
+            --background-color: #0a0a14;
+            --card-background: #1a1a2e;
+            --text-color: #c0c0c0;
+            --heading-color: #ffffff;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            --border-radius: 15px;
+        }
+        
+        body.light-mode {
             --primary-color: #6a11cb;
             --secondary-color: #2575fc;
-            --background-color: #0f0f1a;
-            --card-background: #1a1a2e;
-            --text-color: #e0e0e0;
-            --heading-color: #ffffff;
-            --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            --border-radius: 15px;
+            --background-color: #f4f7f6;
+            --card-background: #ffffff;
+            --text-color: #333;
+            --heading-color: #000;
+            --shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
 
         /* Basic Reset */
@@ -31,12 +41,14 @@
             color: var(--text-color);
             line-height: 1.7;
             overflow-x: hidden;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         h1, h2, h3 {
             color: var(--heading-color);
             font-weight: 700;
             line-height: 1.2;
+            transition: color 0.3s ease;
         }
 
         h1 { font-size: 3.5rem; }
@@ -63,6 +75,15 @@
             padding: 0 20px;
         }
         
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        
         /* Header & Navigation */
         .main-header {
             position: fixed;
@@ -71,9 +92,13 @@
             width: 100%;
             z-index: 1000;
             padding: 20px 0;
-            background: rgba(15, 15, 26, 0.8);
+            background: rgba(10, 10, 20, 0.5);
             backdrop-filter: blur(10px);
             transition: all 0.3s ease;
+        }
+        
+        body.light-mode .main-header {
+             background: rgba(244, 247, 246, 0.8);
         }
         
         .main-header.scrolled {
@@ -96,6 +121,7 @@
         .nav-menu {
             list-style: none;
             display: flex;
+            align-items: center;
         }
 
         .nav-item {
@@ -124,11 +150,20 @@
             width: 100%;
         }
         
+        .theme-switcher {
+            background: none;
+            border: none;
+            color: var(--heading-color);
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+        
         .mobile-menu-toggle {
             display: none;
             background: none;
             border: none;
-            color: white;
+            color: var(--heading-color);
             font-size: 1.5rem;
             cursor: pointer;
         }
@@ -160,6 +195,25 @@
             -webkit-text-fill-color: transparent;
             margin-bottom: 1rem;
         }
+        
+        .typewriter h1 {
+            overflow: hidden; 
+            border-right: .15em solid var(--secondary-color); 
+            white-space: nowrap; 
+            margin: 0 auto; 
+            letter-spacing: .1em;
+            animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+        }
+
+        @keyframes typing {
+          from { width: 0 }
+          to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+          from, to { border-color: transparent }
+          50% { border-color: var(--secondary-color); }
+        }
 
         .hero-description {
             font-size: 1.1rem;
@@ -174,12 +228,12 @@
             border-radius: 50px;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+            box-shadow: 0 5px 15px rgba(0, 170, 255, 0.3);
         }
 
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(37, 117, 252, 0.5);
+            box-shadow: 0 8px 25px rgba(0, 255, 195, 0.4);
             color: white;
         }
         
@@ -193,12 +247,18 @@
             border-radius: 50%;
             object-fit: cover;
             border: 5px solid var(--card-background);
+            box-shadow: 0 0 60px rgba(0, 170, 255, 0.4);
+            transition: all 0.3s ease;
+        }
+        
+        body.light-mode .hero-image {
             box-shadow: 0 0 50px rgba(37, 117, 252, 0.3);
         }
 
         /* Generic Section Styling */
         .section {
             padding: 100px 0;
+            position: relative;
         }
 
         .section-title {
@@ -250,7 +310,7 @@
             border-radius: var(--border-radius);
             overflow: hidden;
             box-shadow: var(--shadow);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
         }
 
         .portfolio-card:hover {
@@ -298,6 +358,7 @@
             padding: 2rem 0;
             margin-top: 60px;
             border-top: 1px solid var(--card-background);
+            transition: border-color 0.3s ease;
         }
         
         /* Animations */
@@ -318,14 +379,14 @@
             h2 { font-size: 2rem; }
             
             .hero-content {
-                flex-direction: column;
+                flex-direction: column-reverse;
                 text-align: center;
             }
             
             .hero-image {
                 width: 300px;
                 height: 300px;
-                margin-top: 2rem;
+                margin-bottom: 2rem;
             }
             
             .about-content {
@@ -365,17 +426,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <div id="particles-js"></div>
 
     <!-- Header -->
     <header class="main-header" id="mainHeader">
         <div class="container">
             <nav class="navbar">
-                <a href="#" class="nav-logo">KAbhishek18</a>
+                <a href="#" class="nav-logo">Kabhishek18</a>
                 <ul class="nav-menu" id="navMenu">
                     <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item">
+                        <button class="theme-switcher" id="themeSwitcher">
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
                 </ul>
                 <button class="mobile-menu-toggle" id="mobileMenuToggle"><i class="fas fa-bars"></i></button>
             </nav>
@@ -388,13 +455,15 @@
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-text fade-in">
-                        <p class="hero-subtitle">Hello, I'm Abhishek Kumar</p>
-                        <h1>Digital Architect & AI Developer</h1>
-                        <p class="hero-description">I design and build intelligent, high-impact digital experiences. From complex web applications to AI-driven solutions, I turn innovative ideas into reality.</p>
-                        <a href="#contact" class="cta-button">Get In Touch</a>
+                        <p class="hero-subtitle">Initializing Synapse...</p>
+                        <div class="typewriter">
+                            <h1>Architecting Intelligence.</h1>
+                        </div>
+                        <p class="hero-description">I am a digital architect, sculpting intelligent systems from raw data and algorithms. I don't just write code; I weave logic into learning machines that solve complex problems and unlock new possibilities.</p>
+                        <a href="#contact" class="cta-button">Initiate Contact</a>
                     </div>
                     <div class="hero-image-container fade-in">
-                         <img src="https://placehold.co/400x400/1a1a2e/e0e0e0?text=AK" alt="Abhishek Kumar" class="hero-image" onerror="this.onerror=null;this.src='https://placehold.co/400x400';">
+                         <img src="https://placehold.co/400x400/0a0a14/00ffc3?text=AI" alt="Abhishek Kumar" class="hero-image" onerror="this.onerror=null;this.src='https://placehold.co/400x400';">
                     </div>
                 </div>
             </div>
@@ -403,15 +472,15 @@
         <!-- About Section -->
         <section id="about" class="section">
             <div class="container">
-                <h2 class="section-title fade-in">About Me</h2>
+                <h2 class="section-title fade-in">Deconstructing the Architect</h2>
                 <div class="about-content">
                     <div class="about-image fade-in">
-                        <img src="https://placehold.co/600x600/2575fc/ffffff?text=Developer" alt="About Abhishek Kumar" onerror="this.onerror=null;this.src='https://placehold.co/600x600';">
+                        <img src="https://placehold.co/600x600/1a1a2e/ffffff?text=Mind+Matrix" alt="About Abhishek Kumar" onerror="this.onerror=null;this.src='https://placehold.co/600x600';">
                     </div>
                     <div class="about-text fade-in">
-                        <h3>Crafting the Future of the Web</h3>
-                        <p>With a passion for clean code and a forward-thinking mindset, I specialize in full-stack development with a strong focus on the Django framework and modern front-end technologies. My journey into the world of AI and machine learning allows me to build not just functional, but truly intelligent applications.</p>
-                        <p>I thrive on challenges and am constantly exploring new technologies to push the boundaries of what's possible. Let's collaborate and build something extraordinary.</p>
+                        <h3>Forging Reality from Code</h3>
+                        <p>My core function is to translate abstract concepts into tangible, intelligent solutions. With a foundation in full-stack development and a specialization in AI, I build systems that are not only robust and scalable but also possess the ability to learn, adapt, and evolve.</p>
+                        <p>I view challenges as data points in a complex optimization problem. Let's define the parameters of your next project and build something truly groundbreaking.</p>
                     </div>
                 </div>
             </div>
@@ -420,33 +489,33 @@
         <!-- Portfolio Section -->
         <section id="portfolio" class="section">
             <div class="container">
-                <h2 class="section-title fade-in">Featured Projects</h2>
+                <h2 class="section-title fade-in">Case Studies: Executed Protocols</h2>
                 <div class="portfolio-grid">
                     <!-- Project 1 -->
                     <div class="portfolio-card fade-in">
-                        <img src="https://placehold.co/600x400/1a1a2e/ffffff?text=AI+Project" class="portfolio-image" alt="Project 1" onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
+                        <img src="https://placehold.co/600x400/0a0a14/00aaff?text=Protocol:Cognition" class="portfolio-image" alt="Project 1" onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
                         <div class="portfolio-card-content">
-                            <h3>AI Content Generation Suite</h3>
-                            <p>A powerful Django application that leverages cutting-edge AI models to automate content creation for blogs and marketing.</p>
-                            <a href="#">View Details &rarr;</a>
+                            <h3>Project: Sentience</h3>
+                            <p>An advanced AI content generation engine designed to mimic human creativity and produce nuanced, context-aware narratives.</p>
+                            <a href="#">Analyze Protocol &rarr;</a>
                         </div>
                     </div>
                     <!-- Project 2 -->
                     <div class="portfolio-card fade-in">
-                        <img src="https://placehold.co/600x400/6a11cb/ffffff?text=Web+App" class="portfolio-image" alt="Project 2" onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
+                        <img src="https://placehold.co/600x400/00aaff/ffffff?text=Protocol:Nexus" class="portfolio-image" alt="Project 2" onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
                         <div class="portfolio-card-content">
-                            <h3>Dynamic E-Commerce Platform</h3>
-                            <p>A scalable online store built with Django, featuring a custom admin panel, payment integrations, and a sleek user interface.</p>
-                            <a href="#">View Details &rarr;</a>
+                            <h3>Project: Commerce Core</h3>
+                            <p>A self-optimizing e-commerce network with predictive analytics for inventory management and user behavior modeling.</p>
+                            <a href="#">Analyze Protocol &rarr;</a>
                         </div>
                     </div>
                     <!-- Project 3 -->
                     <div class="portfolio-card fade-in">
-                        <img src="https://placehold.co/600x400/2575fc/ffffff?text=Portfolio" class="portfolio-image" alt="Project 3" onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
+                        <img src="https://placehold.co/600x400/00ffc3/0a0a14?text=Protocol:Interface" class="portfolio-image" alt="Project 3" onerror="this.onerror=null;this.src='https://placehold.co/600x400';">
                         <div class="portfolio-card-content">
-                            <h3>Personal Blog & CMS</h3>
-                            <p>The blog section of this website, featuring a custom-built Content Management System for easy article publishing.</p>
-                            <a href="#">View Details &rarr;</a>
+                            <h3>Project: Personal Matrix</h3>
+                            <p>This very interface. A dynamic portfolio system designed for optimal information delivery and user engagement.</p>
+                            <a href="#">Analyze Protocol &rarr;</a>
                         </div>
                     </div>
                 </div>
@@ -456,9 +525,9 @@
         <!-- Contact Section -->
         <section id="contact" class="section contact-section">
             <div class="container fade-in">
-                <h2 class="section-title">Let's Connect</h2>
-                <p class="contact-description">I'm currently available for freelance projects and open to discussing new opportunities. If you have an idea you'd like to bring to life, let's talk.</p>
-                <a href="mailto:developer@kabhishek18.com" class="cta-button">developer@kabhishek18.com</a>
+                <h2 class="section-title">Establish Connection</h2>
+                <p class="contact-description">My network is open for new connections. If you have a complex problem or an ambitious project, I am ready to engage.</p>
+                <a href="mailto:developer@kabhishek18.com" class="cta-button">Open Communication Channel</a>
                 <div class="social-links">
                     <a href="https://github.com/kabhishek18" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
                     <a href="https://linkedin.com/in/kabhishek18" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
@@ -471,16 +540,43 @@
     <!-- Footer -->
     <footer class="main-footer">
         <div class="container">
-            <p>&copy; 2025 Abhishek Kumar. All Rights Reserved.</p>
+            <p>&copy; 2025 Abhishek Kumar // End of Line.</p>
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const mainHeader = document.getElementById('mainHeader');
             const navMenu = document.getElementById('navMenu');
             const mobileMenuToggle = document.getElementById('mobileMenuToggle');
             const navLinks = document.querySelectorAll('.nav-link');
+            const themeSwitcher = document.getElementById('themeSwitcher');
+            const body = document.body;
+
+            // --- Theme Switcher ---
+            const currentTheme = localStorage.getItem('theme');
+            if (currentTheme) {
+                body.classList.add(currentTheme);
+                if (currentTheme === 'light-mode') {
+                    themeSwitcher.innerHTML = '<i class="fas fa-moon"></i>';
+                }
+            }
+
+            themeSwitcher.addEventListener('click', () => {
+                body.classList.toggle('light-mode');
+                let theme = 'dark-mode';
+                if (body.classList.contains('light-mode')) {
+                    theme = 'light-mode';
+                    themeSwitcher.innerHTML = '<i class="fas fa-moon"></i>';
+                } else {
+                    themeSwitcher.innerHTML = '<i class="fas fa-sun"></i>';
+                }
+                localStorage.setItem('theme', theme);
+                // Re-initialize particles with new colors
+                initParticles(theme === 'light-mode');
+            });
+
 
             // Header scroll effect
             window.addEventListener('scroll', () => {
@@ -510,7 +606,6 @@
                         });
                     }
                     
-                    // Close mobile menu on link click
                     if (navMenu.classList.contains('active')) {
                         navMenu.classList.remove('active');
                     }
@@ -542,7 +637,7 @@
             // Active link highlighting on scroll
             window.addEventListener('scroll', () => {
                 let current = '';
-                const sections = document.querySelectorAll('section');
+                const sections = document.querySelectorAll('main > section');
                 
                 sections.forEach(section => {
                     const sectionTop = section.offsetTop;
@@ -558,6 +653,81 @@
                     }
                 });
             });
+            
+            // --- Particles.js Initialization ---
+            function initParticles(isLight) {
+                const particleColor = isLight ? "#333333" : "#ffffff";
+                const lineColor = isLight ? "#aaaaaa" : "#2575fc";
+
+                particlesJS('particles-js', {
+                  "particles": {
+                    "number": {
+                      "value": 80,
+                      "density": {
+                        "enable": true,
+                        "value_area": 800
+                      }
+                    },
+                    "color": {
+                      "value": particleColor
+                    },
+                    "shape": {
+                      "type": "circle",
+                    },
+                    "opacity": {
+                      "value": 0.5,
+                      "random": false,
+                    },
+                    "size": {
+                      "value": 3,
+                      "random": true,
+                    },
+                    "line_linked": {
+                      "enable": true,
+                      "distance": 150,
+                      "color": lineColor,
+                      "opacity": 0.4,
+                      "width": 1
+                    },
+                    "move": {
+                      "enable": true,
+                      "speed": 2,
+                      "direction": "none",
+                      "random": false,
+                      "straight": false,
+                      "out_mode": "out",
+                      "bounce": false,
+                    }
+                  },
+                  "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                      "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                      },
+                      "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                      },
+                      "resize": true
+                    },
+                     "modes": {
+                        "repulse": {
+                          "distance": 100,
+                          "duration": 0.4
+                        },
+                        "push": {
+                          "particles_nb": 4
+                        },
+                      }
+                  },
+                  "retina_detect": true
+                });
+            }
+            
+            initParticles(body.classList.contains('light-mode'));
+
         });
     </script>
 
