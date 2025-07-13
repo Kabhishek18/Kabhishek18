@@ -1,11 +1,10 @@
-# 👨‍💻 **Kumar Abhishek**
-**AI‑Driven Full Stack Engineer | System Architect | Security & Scaling Specialist**
+#  **Kumar Abhishek - Kabhishek18** 
+## **THE DIGITAL ARCHITECT**
 
-🔬 Architecting Intelligence • Securing Systems • Scaling Globally
+### 🔬 Architecting Intelligence • Securing Systems • Scaling Globally
+---
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/kabhishek18/)](https://www.linkedin.com/in/kabhishek18/)  
-[![Portfolio](https://img.shields.io/badge/-Portfolio-black?style=flat-square&logo=github&logoColor=white&link=https://kabhishek18.com/)](https://kabhishek18.com/)  
-[![Email](https://img.shields.io/badge/-Email‑Me-red?style=flat-square&logo=gmail&logoColor=white&link=mailto:developer@kabhishek18.com)](mailto:developer@kabhishek18.com)
+ [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/kabhishek18/)](https://www.linkedin.com/in/kabhishek18/)   [![Portfolio](https://img.shields.io/badge/-Portfolio-black?style=flat-square&logo=github&logoColor=white&link=https://kabhishek18.com/)](https://kabhishek18.com/)  [![Email](https://img.shields.io/badge/-Email‑Me-red?style=flat-square&logo=gmail&logoColor=white&link=mailto:developer@kabhishek18.com)](mailto:developer@kabhishek18.com)
 
 ---
 
@@ -28,20 +27,55 @@ I don’t just write code — I **engineer ecosystems**. From system architectur
 
 ---
 
-## 🎖️ Featured Certifications
+## 🎖️ Professional Certifications
+
 <div align="center">
 
-| 🏅 Certification | Provider |
-|-----------------|----------|
-| ![Scrum](https://img.shields.io/badge/-Professional%20Scrum%20Master-6DB33F?logo=scrumalliance&logoColor=white) | Scrum.org |
-| ![Google Cloud](https://img.shields.io/badge/-Generative%20AI-4285F4?logo=googlecloud&logoColor=white) | Google Cloud |
-| ![Udemy](https://img.shields.io/badge/-React%20%26%20Django%20Full%20Stack-A435F0?logo=udemy&logoColor=white) | Udemy |
-| ![HackerRank](https://img.shields.io/badge/-SQL%20(Intermediate)-2EC866?logo=hackerrank&logoColor=white) | HackerRank |
-| ![Python Debugging](https://img.shields.io/badge/-Testing%20%26%20Debugging%20Python-0056D2?logo=coursera&logoColor=white) | Coursera |
-| ![Postman](https://img.shields.io/badge/-Postman%20Advanced-FF6C37?logo=postman&logoColor=white) | Coursera |
-| ![DevOps](https://img.shields.io/badge/-Continuous%20Delivery%20%26%20DevOps-2496ED?logo=azuredevops&logoColor=white) | Coursera |
-| ![Python Flask](https://img.shields.io/badge/-Python%20%26%20Flask-3776AB?logo=python&logoColor=white) | Coursera |
-| ![Python Basic](https://img.shields.io/badge/-Python%20(Basic)-2EC866?logo=hackerrank&logoColor=white) | HackerRank |
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-Professional%20Scrum%20Master-6DB33F?logo=scrumalliance&logoColor=white" /><br/>
+      <sub>Scrum.org</sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-Generative%20AI-4285F4?logo=googlecloud&logoColor=white" /><br/>
+      <sub>Google Cloud</sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-React%20%26%20Django%20Full%20Stack-A435F0?logo=udemy&logoColor=white" /><br/>
+      <sub>Udemy</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-SQL%20(Intermediate)-2EC866?logo=hackerrank&logoColor=white" /><br/>
+      <sub>HackerRank</sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-Testing%20%26%20Debugging%20Python-0056D2?logo=coursera&logoColor=white" /><br/>
+      <sub>Coursera</sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-Postman%20Advanced-FF6C37?logo=postman&logoColor=white" /><br/>
+      <sub>Coursera</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-Continuous%20Delivery%20%26%20DevOps-2496ED?logo=azuredevops&logoColor=white" /><br/>
+      <sub>Coursera</sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-Python%20%26%20Flask-3776AB?logo=python&logoColor=white" /><br/>
+      <sub>Coursera</sub>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/-Python%20(Basic)-2EC866?logo=hackerrank&logoColor=white" /><br/>
+      <sub>HackerRank</sub>
+    </td>
+  </tr>
+</table>
+
 </div>
 
 ---
