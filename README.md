@@ -50,10 +50,7 @@ I don’t just write code — I **engineer ecosystems**. From system architectur
 
 <div align="center">
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="100"/>
-  <br/>
-  | 🏅 Stats | Languages |
-  |-----------------|----------|
-  ![Abhishek's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kabhishek18&show_icons=true&theme=dark&count_private=true&hide=issues) |  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kabhishek18&layout=compact&theme=dark)|
+ [![Kabhishek18's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=kabhishek18&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/kabhishek18/github-readme-stats#gh-dark-mode-only)
 </div>
 
 ---
