@@ -1,47 +1,67 @@
-## 🚀 About Me (Hi there! My name is Kumar Abhishek)
-I'm an experienced Full Stack Software Developer and have rich experience in
-Web Application Development and Mobile Application Development  and I am a software developer executive  with 9+ years of experience in Python, PHP, and ReactJS.
+# 🚀 About Me
 
-Over the years, I have honed my skills in Python and PHP, and have worked on several projects in e-commerce, Aviation, and Edtech-commerce. I am passionate about using technology to solve complex problems, and I strive to deliver high-quality solutions that meet the needs of my clients.
+Hi there! 👋 I'm **Kumar Abhishek**, an experienced **Full Stack Software Developer** with over **9 years of industry experience** in **Python**, **PHP**, **ReactJS**, and **web & mobile application development**.
 
-When I'm not working, you can find me at @kabhishek18.com. I believe that a well-rounded individual is a better problem solver, and I try to bring that perspective to my work.
-I am constantly learning and seeking out new challenges, and I am excited about the possibilities of the future.
+I specialize in building scalable and high-performance applications, and have contributed to impactful projects across diverse domains like **E-commerce**, **Aviation**, and **EdTech-commerce**.
 
-If you'd like to get in touch, feel free to connect with me on. I look forward to hearing from you!
+I’m passionate about using technology to solve real-world problems, and I pride myself on delivering clean, maintainable, and high-quality code. When I’m not coding, I’m learning something new, exploring open-source projects, or contributing to tech communities.
 
+🌐 **Portfolio**: [kabhishek18.com](https://kabhishek18.com/)  
+📧 **Email**: [developer@kabhishek18.com](mailto:developer@kabhishek18.com)
 
+---
 
 <div align="center">
-  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> 
-  <h3>Here are some stats</h3>
-  
-[![Kabhishek18's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=kabhishek18&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/kabhishek18/github-readme-stats#gh-dark-mode-only)
+  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="100" />
+  <h3>📊 GitHub Stats</h3>
 
+  [![Kabhishek18's GitHub Stats (Dark)](https://github-readme-stats.vercel.app/api?username=kabhishek18&show_icons=true&theme=dark)](https://github.com/kabhishek18/github-readme-stats)
 </div>
 
+---
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kabhishek18.com/) 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kabhishek18)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kabhishek18)
+## 🔗 Connect with Me
 
+[![Portfolio](https://img.shields.io/badge/My%20Portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kabhishek18.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kabhishek18)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kabhishek18)
 
-## 🛠 Skills
-[![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python&link=https://github.com/Quananhle/Python-AWS-TradingAI)](https://github.com/Quananhle/Python-AWS-TradingAI)
-[![PHP](https://img.shields.io/badge/-PHP-blue?style=flat&logo=php&link=https://github.com/YourUsername/YourPHPRepo)](https://github.com/YourUsername/YourPHPRepo)
-[![HTML & CSS](https://img.shields.io/badge/-HTML%20%26%20CSS-orange?style=flat&logo=html5&link=https://github.com/YourUsername/YourHtmlCssRepo)](https://github.com/YourUsername/YourHtmlCssRepo)
-[![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat&logo=javascript&link=https://github.com/YourUsername/YourJsRepo)](https://github.com/YourUsername/YourJsRepo)
-[![Amazon Web Services](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&link=https://github.com/YourUsername/YourAWSRepo)](https://github.com/YourUsername/YourAWSRepo)
-[![API](https://img.shields.io/badge/-API-green?style=flat&logo=api&link=https://github.com/YourUsername/YourApiRepo)](https://github.com/YourUsername/YourApiRepo)
-[![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-blue?style=flat&logo=elasticsearch&link=https://github.com/YourUsername/YourElasticsearchRepo)](https://github.com/YourUsername/YourElasticsearchRepo)
+---
 
+## 🛠 Tech Stack
 
+### 👨‍💻 Languages & Frameworks
+![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=python)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript)
+![ReactJS](https://img.shields.io/badge/-ReactJS-61DAFB?style=flat&logo=react)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
 
-## Other Common GitHub Profile Sections
-👩‍💻 I'm currently working on `React native(Android, IOS), Python Django`
+### 🧰 Tools & Platforms
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django)
+![React Native](https://img.shields.io/badge/-React%20Native-20232A?style=flat&logo=react)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws)
+![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=flat&logo=elasticsearch)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat&logo=github-actions)
 
-👯‍♀️ I'm looking to collaborate on any relevant to my skill
+---
 
-💬 Ask me about anything of my project 
+## 💼 Current Focus
 
-📫 How to reach me, contact me: `developer@kabhishek18.com`
+- 👨‍💻 Currently working on **React Native (Android & iOS)** and **Python (Django)** projects  
+- 🤝 Looking to collaborate on meaningful open-source or freelance projects  
+- 💬 Ask me about anything related to my projects, stack, or backend infrastructure  
+- 🧠 Constantly learning and exploring new technologies  
+
+---
+
+## 💡 Fun Fact
+
+> I believe that **a well-rounded individual is a better problem solver**.  
+> Whether it’s writing code or understanding people, I always aim to grow in both areas!
+
+---
