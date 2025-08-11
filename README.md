@@ -14,6 +14,7 @@ I’m **Kumar Abhishek**, a **high-impact software engineer and AI specialist** 
 
 I don’t just write code — I **engineer ecosystems**. From system architecture, debugging, and AI pipelines to securing and scaling cloud-native infrastructure, I build end-to-end solutions that drive impact.
 
+Follow me on LinkedIn: www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=kabhishek18
 ---
 
 ## 🧠 Key Expertise
